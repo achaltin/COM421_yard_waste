@@ -52,6 +52,9 @@ li::before{
     color:#ffcd00;
     padding-right:5px;
 }
+li.nav::before{
+    content:none;
+}
 ul{
     list-style-type: none;
 }
@@ -64,7 +67,8 @@ li.nav{
 	list-style-position:inside;
 	padding:1%;
 	white-space:nowrap;
-	text-decoration: bold;
+    text-decoration: bold;
+    
 }
 li.nav::before{
 	content:none;
@@ -86,4 +90,32 @@ h1.headline{
 footer{
     text-align: center;
     font-size:8pt;
+}
+
+/*for mobile friendliness*/
+@media screen and (max-width:450px){
+
+	li.nav{
+		display:block
+    }
+    nav{
+        height:auto;
+        z-index: 0;
+        margin:0;
+        position:relative;
+        width:100%;
+        text-align:center;
+    }
+    body{
+        width:100%;
+        margin:2px;
+        
+    }
+    .headline{
+        position: relative;
+        height:auto;
+        margin:0;
+        z-index: 0;
+        overflow:wrap;
+    }
 }
