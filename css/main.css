@@ -1,5 +1,6 @@
 h1, h2, h3, h4, h5, h6{
     font-family: "Lora", serif;
+    max-width:600px;
 }
 
 body{
@@ -13,6 +14,9 @@ img.topright{
     float:right;
     width:400px;
 }
+img.nav{
+    width:100px;
+}
 
 h5{
     font-style: italic;
@@ -20,6 +24,7 @@ h5{
 p, a, li{
     font-family: "Quattrocento Sans", sans-serif;
     color:black;
+    max-width:600px;
 }
 h5, p ~ h5{
     margin-left:10px;
