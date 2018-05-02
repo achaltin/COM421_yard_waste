@@ -21,6 +21,9 @@ img.nav{
 h5{
     font-style: italic;
 }
+h5, p ~ h5{
+   margin-left:10px;
+}
 p, a, li{
     font-family: "Quattrocento Sans", sans-serif;
     color:black;
