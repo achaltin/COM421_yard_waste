@@ -26,9 +26,6 @@ p, a, li{
     color:black;
     max-width:600px;
 }
-h5, p ~ h5{
-    margin-left:10px;
-}
 a:hover{
     background-color:#cccccc;
 }
